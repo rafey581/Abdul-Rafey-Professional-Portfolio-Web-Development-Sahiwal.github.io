@@ -216,11 +216,17 @@
       box-sizing: border-box;
     }
 
-    @media (max-width: 768px) {
+    @media (min-width: 600px) {
+      .item {
+        flex: 1 1 45%;
+        /* 2 items per row on medium screens */
+      }
+    }
 
-      /* Mobile styles here */
-      body {
-        font-size: 16px;
+    @media (min-width: 1024px) {
+      .item {
+        flex: 1 1 30%;
+        /* 3 items per row on large screens */
       }
     }
 
