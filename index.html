@@ -284,6 +284,15 @@
         font-size: 24px;
       }
     }
+    /* developer pic mobile responsive */
+    @media (max-width: 768px) {
+
+      /* Mobile styles here */
+      #developerPic {
+        width: 50vw;
+        border: 4px solid #d6d3d1 ;
+      }
+    }
 
     .change:hover {
       color: #5E4CB4;
@@ -304,7 +313,7 @@
 
   <header class="h-24 w-[100vw] backdrop-blur-[50px] flex gap-[30vw] justify-around sticky z-10 top-0  items-center "
     style="margin-top: 2rem; margin-bottom: 9rem; ">
-    <img src="/assets/icons/bg-logo.png" class="w-[12%] " role="logo" alt="logo">
+    <img id="logo" src="/assets/icons/bg-logo.png" class="w-[12%] " role="logo" alt="logo">
     <nav class=" flex gap-[5vw]">
       <a href="#"
         class="text-(--header-font-color) text-2xl font-semibold change hover:scale-145 hover:underline ">Home</a>
@@ -332,7 +341,7 @@
 
       </div>
       <div>
-        <img style=" border-radius: 130px 130px 0px 0px;" class="w-[23vw] backdrop-blur-[50px] border-8 border-stone-300 "
+        <img id="developerPic" style=" border-radius: 130px 130px 0px 0px;" class="w-[23vw] backdrop-blur-[50px] border-8 border-stone-300 "
           src="/assets/images/personal.png" alt="developer pic">
       </div>
     </div>
