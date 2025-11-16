@@ -244,55 +244,24 @@
       overflow-x: hidden;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    @media (min-width: 600px) {
-      .item {
-        flex: 1 1 45%;
-        /* 2 items per row on medium screens */
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .item {
-        flex: 1 1 30%;
-        /* 3 items per row on large screens */
-      }
-    }
 
     
     @media (max-width: 768px) {
-
-      /* Mobile styles here */
       body , a , p , span {
         font-size: 16px;
       }
     }
     @media (max-width: 768px) {
-
-      /* Mobile styles here */
-      h2 {
-        font-size: 20px;
-      }
-    }
-    @media (max-width: 768px) {
-
-      /* Mobile styles here */
       h1 {
         font-size: 24px;
       }
     }
-    
-    /* logo mobile responsive */
     @media (max-width: 768px) {
-
-      /* Mobile styles here */
-      #logo {
-        width: 24%;
+      h2 {
+        font-size: 20px;
       }
     }
+  
 
     .change:hover {
       color: #5E4CB4;
@@ -311,7 +280,7 @@
 
   <!-- Header  -->
 
-  <header class="h-24 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
+  <header class="h-26 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
     style="margin-top: 2rem; margin-bottom: 9rem; ">
     <img id="logo" src="/assets/icons/bg-logo.png" class="w-[12%] " role="logo" alt="logo">
     <nav class=" flex gap-3 md:gap-17">
@@ -537,14 +506,14 @@
 
   <!-- projects_section -->
 
-  <h2 id="projects" class="text-[var(--header-font-color)] text-[3rem] font-bold flex justify-center"
+  <h2 id="projects" class="text-(--header-font-color) text-[3rem] font-bold flex justify-center"
     style="margin-bottom: 50px;">Projects
   </h2>
 
   <!-- Project-1   -->
 
-  <section class="flex w-[100%] flex justify-center" style="margin-bottom: 80px;">
-    <div class="flex  w-[75%] justify-center items-center gap-15">
+  <section class="flex w-full justify-center" style="margin-bottom: 80px;">
+    <div class="flex  w-[75%] flex-col md:flex-row justify-center items-center gap-15">
       <div class=" h-[99%] flex items-center">
         <img src="/assets/images/Game X O.png" class="bg-cover inline" alt="Amazon Website">
       </div>
@@ -559,7 +528,7 @@
             class="  bg-stone-800 h-[35px] w-[90px] px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
             Css</li>
           <li
-            class="  bg-stone-800 h-[2.3rem] w-[7rem] px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
+            class="  bg-stone-800 h-[2.3rem] w-28 px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
             Java Script</li>
         </ul>
         <p class="" style="margin-bottom: 20px;">
@@ -584,8 +553,8 @@
 
   <!-- Project-2  -->
 
-  <section class="flex w-[100%] flex justify-center" style="margin-bottom: 80px;">
-    <div class="flex  w-[75%] justify-center items-center gap-15">
+  <section class="flex w-full justify-center" style="margin-bottom: 80px;">
+    <div class="flex  w-[75%] flex-col md:flex-row justify-center items-center gap-15">
 
       <div>
         <h3 class=" text-3xl font-semibold " style="margin-bottom: 40px;">Amazon Website Clone</h3>
@@ -615,16 +584,16 @@
         </div>
 
       </div>
-      <div class="w-250 ">
+      <div class="h-[99%] md:w-250">
         <img src="/assets/images/Amazon.png" class="bg-cover inline" alt="Amazon Website">
       </div>
     </div>
   </section>
   <!-- Project-3  -->
 
-  <section class="flex w-[100%] flex justify-center" style="margin-bottom: 80px;">
-    <div class="flex  w-[75%] justify-center items-center gap-15">
-      <div class="h-[99%] flex items-center">
+  <section class="flex w-full justify-center" style="margin-bottom: 80px;">
+    <div class="flex  w-[75%] flex-col md:flex-row justify-center items-center gap-15">
+      <div class="h-[99%]">
         <img src="/assets/images/rockpaperscicors.png" class="bg-cover inline" alt="Amazon Website">
       </div>
       <div>
@@ -638,7 +607,7 @@
             class="  bg-stone-800 h-[35px] w-[90px] px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
             Css</li>
           <li
-            class="  bg-stone-800 h-[2.3rem] w-[7rem] px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
+            class="  bg-stone-800 h-[2.3rem] w-28 px-2 py-1 border-2 rounded-2xl flex justify-center items-center border-stone-700 hover:border-[#81A4A6]">
             Java Script</li>
         </ul>
         <p class="" style="margin-bottom: 20px;">
@@ -663,8 +632,8 @@
   </section>
   <!-- Project-4   -->
 
-  <section class="flex w-[100%] flex justify-center" style="margin-bottom: 80px;">
-    <div class="flex  w-[75%] justify-center items-center gap-15">
+  <section class="flex w-full justify-center" style="margin-bottom: 80px;">
+    <div class="flex  flex-col md:flex-row w-[75%] justify-center items-center gap-15">
 
       <div>
         <h3 class=" text-3xl font-semibold " style="margin-bottom: 40px;">Blog Website </h3>
@@ -695,7 +664,7 @@
         </div>
       </div>
 
-      <div class="w-250 ">
+      <div class="h-[99%] md:w-250">
         <img src="/assets/images/Blog World.png" class="bg-cover inline" alt="Amazon Website">
       </div>
     </div>
@@ -703,9 +672,9 @@
 
   <!-- Project-5  -->
 
-  <section class="flex w-[100%] flex justify-center" style="margin-bottom: 80px;">
-    <div class="flex  w-[75%] justify-center items-center gap-15">
-      <div class="w-250 ">
+  <section class="flex w-full  justify-center" style="margin-bottom: 80px;">
+    <div class="flex  w-[75%] flex-col md:flex-row justify-center items-center gap-15">
+      <div class="h-[99%] md:w-250">
         <img src="/assets/images/Samsung.png" class="bg-cover inline" alt="Amazon Website">
       </div>
       <div>
