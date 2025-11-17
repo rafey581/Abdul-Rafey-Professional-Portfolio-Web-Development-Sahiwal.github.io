@@ -82,6 +82,8 @@ The goal of this website is to demonstrate technical expertise, creative design,
 The website is fully responsive and optimized for:
 - Desktops 🖥️  
 - Tablets 💻  
+- Mobile Devices 📱  
+
 ## Tools for Design
 - Figma
  
