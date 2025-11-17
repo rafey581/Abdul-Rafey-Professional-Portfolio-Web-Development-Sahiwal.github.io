@@ -191,11 +191,12 @@
     html {
       scroll-behavior: smooth;
     }
-        header {
+
+    header {
       overflow: hidden;
       text-align: center;
     }
-    
+
     /* Animated blur line pseudo-element */
     header::before {
       content: '';
@@ -204,36 +205,44 @@
       left: -100%;
       width: 100%;
       height: 100%;
-      background: linear-gradient(
-        90deg,
-        transparent 0%,
-        rgba(255, 255, 255, 0.4) 50%, 
-        transparent 100%
-      );
+      background: linear-gradient(90deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.4) 50%,
+          transparent 100%);
       filter: blur(8px);
       animation: blurLine 8s linear infinite;
     }
-    
+
     /* Animation keyframes */
     @keyframes blurLine {
       0% {
         left: -100%;
       }
+
       100% {
         left: 100%;
       }
     }
+
     /* Developer pic animation */
     .fade-in-img {
-  opacity: 0;
-  animation: fadeIn 5s ease-in forwards; /* change 2s to control speed */
-}
+      opacity: 0;
+      animation: fadeIn 5s ease-in forwards;
+      /* change 2s to control speed */
+    }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(100px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-   
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
 
 
 
@@ -258,23 +267,28 @@
     }
 
 
-    
+
     @media (max-width: 768px) {
-      body , a , p {
+
+      body,
+      a,
+      p {
         font-size: 16px;
       }
     }
+
     @media (max-width: 768px) {
       h1 {
         font-size: 24px;
       }
     }
+
     @media (max-width: 768px) {
       h2 {
         font-size: 20px;
       }
     }
-  
+
 
     .change:hover {
       color: #5E4CB4;
@@ -293,7 +307,8 @@
 
   <!-- Header  -->
 
-  <header class="h-26 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
+  <header
+    class="h-26 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
     style="margin-top: 2rem; margin-bottom: 9rem; ">
     <img id="logo" src="/assets/icons/bg-logo.png" class="w-[12%] " role="logo" alt="logo">
     <nav class=" flex gap-3 md:gap-17">
@@ -317,13 +332,15 @@
     <div style="margin:auto;" class="flex justify-around items-center">
       <div style="margin: auto 0px;">
         <p class="text-[2rem] font-semibold ">Hey</p>
-        <h1 class="text-[4rem] font-semibold underline ">Im <span class="text-5xl md:text-7xl text-[#5E4CBF]">Abdul Rafey</span>
+        <h1 class="text-[4rem] font-semibold underline ">Im <span class="text-5xl md:text-7xl text-[#5E4CBF]">Abdul
+            Rafey</span>
         </h1>
         <h2 class="text-[2rem] font-semibold ">Web Developer</h2>
 
       </div>
       <div>
-        <img id="developerPic"  class="fade-in-img move-up md:rounded-[130px_130px_0px_0px] rounded-[55px_55px_0px_0px] w-[50vw] backdrop-blur-[50px] border-4 border-stone-300 md:w-[23vw] md:border-8 md:border-solid  md:border-stone-300 "
+        <img id="developerPic"
+          class="fade-in-img move-up md:rounded-[130px_130px_0px_0px] rounded-[55px_55px_0px_0px] w-[50vw] backdrop-blur-[50px] border-4 border-stone-300 md:w-[23vw] md:border-8 md:border-solid  md:border-stone-300 "
           src="/assets/images/personal.png" alt="developer pic">
       </div>
     </div>
@@ -433,14 +450,16 @@
 
   <!-- About & Experience Section -->
 
-  <section id="About" style="margin: 1rem; margin-left: auto; margin-right: auto ;" class="backdrop-blur-[50px] w-[75vw]">
+  <section id="About" style="margin: 1rem; margin-left: auto; margin-right: auto ;"
+    class="backdrop-blur-[50px] w-[75vw]">
 
     <!-- About_section -->
     <div>
-      <h2 class="text-(--header-font-color) text-[3rem] font-bold flex justify-center"
-        style="margin-bottom: 3rem; ">About Me
+      <h2 class="text-(--header-font-color) text-[3rem] font-bold flex justify-center" style="margin-bottom: 3rem; ">
+        About Me
       </h2>
-      <p class="text-xl  w-[72vw]" style="margin: 0px auto;">I’m a passionate Web Developer skilled in HTML, CSS, JavaScript, Tailwind CSS, WordPress, and
+      <p class="text-xl  w-[72vw]" style="margin: 0px auto;">I’m a passionate Web Developer skilled in HTML, CSS,
+        JavaScript, Tailwind CSS, WordPress, and
         Figma. I build modern, responsive, and SEO-friendly websites that help businesses grow. Constantly learning and
         improving, I focus on delivering clean, creative, and high-quality web solutions tailored to each client’s
         goals.</p>
@@ -455,8 +474,7 @@
       </h2>
 
 
-      <div class="max-w-6xl w-[72vw] "
-        style=" margin: auto; padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="max-w-6xl w-[72vw] " style=" margin: auto; padding-top: 4rem; padding-bottom: 4rem;">
 
         <!-- Job Title -->
         <h2 class="text-2xl md:text-3xl font-bold" style="margin-bottom: 0.5rem;">Web Development Intern & Trainee</h2>
@@ -764,8 +782,8 @@
         </div>
         <!-- Contact Form -->
         <div class="h-88 w-88 ">
-          <form class="hover:border-4 hover:border-[#5E4CB4] rounded-2xl" style="padding: 1rem; padding-top: 4px; padding-bottom: 4px;"
-            id="contact-form">
+          <form class="hover:border-4 hover:border-[#5E4CB4] rounded-2xl"
+            style="padding: 1rem; padding-top: 4px; padding-bottom: 4px;" id="contact-form">
             <div>
               <label for="name" class=" block text-[#FFFFFF] text-sm font-medium "
                 style="margin-bottom: 10px;">Name*</label>
