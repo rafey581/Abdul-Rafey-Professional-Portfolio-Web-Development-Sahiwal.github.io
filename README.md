@@ -88,7 +88,7 @@ The website is fully responsive and optimized for:
 - Figma
  
 👉 [**View Figma Design on Google Drive**](https://drive.google.com/file/d/1XfS5wrTfOEEoeU_kspeNDkTAKx3dFV_y/view?usp=sharing)
-👉 [**View Figma Design on Figma**](https://www.figma.com/design/myOXFF9CPWqRoSpKirOiwJ/Untitled?node-id=3-3&p=f&t=VzIySvrruy2fKsRM-0)
+👉 [**View Figma Design on Figma**](https://www.figma.com/design/myOXFF9CPWqRoSpKirOiwJ/Untitled?node-id=3-3&t=6pppTolEGHnRb4uu-1)
 
 ## Note :
         sir i have use paralex effect in my website so in figma the background of website is not well.
