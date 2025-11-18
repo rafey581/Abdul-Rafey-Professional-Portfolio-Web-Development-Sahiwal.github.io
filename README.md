@@ -121,7 +121,7 @@ The build process generates optimized static files for fast load times and high 
 
 Detailed documentation for this portfolio project, including **research, requirements, design process, and development workflow**, is available here:
 
-👉 [**View Full Documentation on Google Drive**](https://docs.google.com/document/d/1Q_YYMA3HhLroewsBKAuFKIpEoMICxNKT/edit?usp=sharing&ouid=103282197998538247482&rtpof=true&sd=true)
+👉 [**View Full Documentation on Google Drive**](https://docs.google.com/document/d/15lFlqtoqatTvtQzYBnneth-ZMAt59TzMOej0MGzhblY/edit?usp=sharing)
 
 The document explains:
 - Research and requirement gathering
