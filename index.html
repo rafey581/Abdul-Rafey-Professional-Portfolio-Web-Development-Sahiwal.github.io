@@ -177,7 +177,6 @@
   <meta name="DC.language" content="en-US">
   <meta name="DC.format" content="text/html">
   <meta name="DC.identifier" content="https://www.yourdomain.com/">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="output.css">
   <style>
@@ -227,7 +226,7 @@
     /* Developer pic animation */
     .fade-in-img {
       opacity: 0;
-      animation: fadeIn 5s ease-in forwards;
+      animation: fadeIn 4s ease-in forwards;
       /* change 2s to control speed */
     }
 
@@ -308,13 +307,13 @@
   <!-- Header  -->
 
   <header
-    class="h-26 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
+    class="md:h-26 h-12 w-screen backdrop-blur-[50px] flex gap-10 justify-around sticky z-10 top-0 items-center md:gap-100 "
     style="margin-top: 2rem; margin-bottom: 9rem; ">
     <img id="logo" src="/assets/icons/bg-logo.png" class="w-[12%] " role="logo" alt="logo">
     <nav class=" flex gap-3 md:gap-17">
-      <a href="#"
+      <a href="index.html"
         class="text-(--header-font-color) text-2xl font-semibold change hover:scale-145 hover:underline ">Home</a>
-      <a href="#About"
+      <a href="#about"
         class="text-(--header-font-color) text-2xl font-semibold change hover:scale-145 hover:underline ">About</a>
       <a href="#projects"
         class="text-(--header-font-color) font-semibold change text-2xl hover:scale-145 hover:underline ">Projects</a>
@@ -329,10 +328,10 @@
   <!-- INTRO_Section  -->
 
   <section>
-    <div style="margin:auto;" class="flex justify-around items-center">
+    <div style="margin:auto; " class="flex justify-around items-center"> 
       <div style="margin: auto 0px;">
         <p class="text-[2rem] font-semibold ">Hey</p>
-        <h1 class="text-[4rem] font-semibold underline ">Im <span class="text-5xl md:text-7xl text-[#5E4CBF]">Abdul
+        <h1 class="text-[4rem] font-semibold underline ">Im <span class="text-4xl md:text-7xl text-[#5E4CBF]">Abdul
             Rafey</span>
         </h1>
         <h2 class="text-[2rem] font-semibold ">Web Developer</h2>
@@ -349,7 +348,7 @@
   <!-- skills_section -->
 
 
-  <section class="backdrop-blur-[50px] static z-0">
+  <section id="skills" class="backdrop-blur-[50px] static z-0">
     <div class="container"
       style="margin-left: auto; margin-right: auto; margin-bottom: 1rem; padding-top: 1rem; padding-bottom: 1rem;">
 
@@ -450,7 +449,7 @@
 
   <!-- About & Experience Section -->
 
-  <section id="About" style="margin: 1rem; margin-left: auto; margin-right: auto ;"
+  <section id="about" style="margin: 1rem; margin-left: auto; margin-right: auto ;"
     class="backdrop-blur-[50px] w-[75vw]">
 
     <!-- About_section -->
@@ -826,7 +825,7 @@
 
       <!-- Navigation Links -->
       <div class="flex justify-center opacity-50 flex-wrap gap-8" style="margin-bottom: 1.5rem;">
-        <a href="#home" class=" text-xl hover:scale-150 change  font-semibold transition-colors">Home</a>
+        <a href="index.html" class=" text-xl hover:scale-150 change  font-semibold transition-colors">Home</a>
         <a href="#about" class=" text-xl hover:scale-150 change  font-semibold transition-colors">About</a>
         <a href="#projects" class=" text-xl hover:scale-150 change font-semibold transition-colors">Projects</a>
         <a href="#skills" class=" text-xl hover:scale-150 change font-semibold transition-colors">Skills</a>
